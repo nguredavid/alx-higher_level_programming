@@ -1,3 +1,7 @@
 #!/usr/bin/python3
-for c in range(ord('z'), ord('a') - 1, -1):
-    print("{:c}".format((c - (ord('a') - ord('A'))) if c % 2 else c), end='')
+for i in range(122, 96, -1):
+    if i % 2 == 0:
+        n = chr(i)
+    else:
+        n = chr(i-32)
+    print("{}".format(n), end="")
