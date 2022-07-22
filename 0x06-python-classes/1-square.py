@@ -1,16 +1,15 @@
 #!/usr/bin/python3
-"""class moduele"""
+"""defines and initializes the size attribute"""
 
 
 class Square:
-    
-    """Simple square class with his size as a field"""
+
+    """Square defines a square"""
 
     def __init__(self, size):
-        
-        """ Instance the class Square
-            Arguments:
-                @size: the size of every side of the Square
-         """
-        
-        self.__size = size 
+        """initializes the the square.
+        Args:
+            size(int): the square size.
+        """
+
+        self.__size = size
