@@ -1,5 +1,7 @@
 #!/usr/bin/python3
 """class moduele"""
+
+
 class Square:
     """Simple square class with his size as a field"""
 
