@@ -13,4 +13,4 @@ class Square:
                 @size: the size of every side of the Square
          """
         
-        self.__size = size #end
+        self.__size = size 
