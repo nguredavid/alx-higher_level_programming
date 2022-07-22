@@ -9,4 +9,5 @@ class Square:
         """ Instance the class Square
             Arguments:
                 @size: the size of every side of the Square"""
+        
         self.__size = size #end
