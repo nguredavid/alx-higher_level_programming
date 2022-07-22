@@ -3,4 +3,4 @@
 class Square:
     """Empty class that defines a square.
      below is the argumet"""
-    pass
+    pass #this is empty block
