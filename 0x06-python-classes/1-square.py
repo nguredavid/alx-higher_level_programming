@@ -1,4 +1,5 @@
 #!/usr/bin/python3
+"""class moduele"""
 class Square:
     """Simple square class with his size as a field"""
 
@@ -6,4 +7,4 @@ class Square:
         """ Instance the class Square
             Arguments:
                 @size: the size of every side of the Square"""
-        self.__size = size
+        self.__size = size #end
