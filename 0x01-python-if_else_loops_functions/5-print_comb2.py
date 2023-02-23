@@ -1,6 +1,12 @@
 #!/usr/bin/python3
-for number in range(0, 100):
-    if number == 99:
-        print("{}".format(number))
-    else:
-        print("{:02}".format(number), end=", ")
+
+#A program that prints numbers from 0 to 99
+
+def numbers():
+    for i in range(0, 100):
+        if i == 99:
+            print(f'{i:02}')
+            continue
+        print(f'{i:02}, ', end="")
+        
+numbers()
