@@ -1,3 +1,10 @@
 #!/usr/bin/python3
 def max_integer(my_list=[]):
-    return (min(my_list, key=lambda i: -i)) if my_list else None
+    return my_list
+
+lists = [1, 90, 2, 13, 34, 5, -13, 3]
+
+lists.sort()
+
+print(lists[-1])
+
