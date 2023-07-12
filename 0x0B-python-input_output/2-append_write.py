@@ -8,7 +8,7 @@ def append_write(filename="", text=""):
 
     with open(filename, 'a', encoding='UTF-8') as myfile:
 
-        characters = myfile.append(text)
+        characters = myfile.write(text)
 
         return characters
 
