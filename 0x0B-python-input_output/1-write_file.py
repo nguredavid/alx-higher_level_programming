@@ -9,6 +9,6 @@ def write_file(filename="", text=""):
         characters = myfile.write(text)
 
         print(len(characters))
-        retun characters
+        return characters
         
 
