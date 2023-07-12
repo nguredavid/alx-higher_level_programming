@@ -9,7 +9,7 @@ def write_file(filename="", text=""):
 
         characters = myfile.write(text)
 
-        return characters
+        print(len(characters))
 
         
         
