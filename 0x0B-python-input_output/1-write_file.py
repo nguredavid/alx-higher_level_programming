@@ -11,10 +11,11 @@ def write_file(filename="", text=""):
 
         """returns the number of characters written"""
 
-
-
         return characters
 
         
-        
+'''call function'''
+
+print(write_file("example.txt", "David"))
+
 
