@@ -9,7 +9,11 @@ def write_file(filename="", text=""):
 
         characters = myfile.write(text)
 
+        """returns the number of characters written"""
+
         print(len(characters))
+
+        return characters
 
         
         
