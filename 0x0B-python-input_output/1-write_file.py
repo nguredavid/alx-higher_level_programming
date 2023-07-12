@@ -6,9 +6,10 @@ def write_file(filename="", text=""):
 
     with open(filename, "w", encoding="UTF-8") as myfile:
 
-        characters = myfile.write(text)
+        count = myfile.write(text)
 
-        print(len(characters))
-        return characters
+        return count
+
+        
         
 
