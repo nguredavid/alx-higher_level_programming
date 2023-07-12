@@ -4,9 +4,12 @@
 
 def read_file(filename=""):
 
-    with open('filename', 'r', encoding='utf-8') as myfile:
+    '''This function reads the file content'''
 
-        content = myfile.read()
-        print(content)
+
+    with open(filename, 'r', encoding='utf-8') as myfile:
+
+        print(myfile.read())
+        
 '''call the function'''
-read_file(example.txt)
+read_file("example.txt")
