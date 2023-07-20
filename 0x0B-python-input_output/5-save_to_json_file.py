@@ -8,5 +8,9 @@ def save_to_json_file(my_obj, filename):
 
         json.dump(my_obj, myfile)
 '''create object'''
-data = ["David", {"marks": (30, 50, 100)}]
-save_to_json_file(data, 'output.json')
+data_list= [
+    ["David", {"marks": (30, 50, 100)}],
+    ["Hudson", {"marks": (940, 70, 90)}],
+    ["Millicent", {"Marks": (50, 60, 80)}]
+]
+save_to_json_file(data_list, 'output.json')
