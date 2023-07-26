@@ -1,1 +1,14 @@
-DAVID
+data = {
+
+	"people": [
+
+		{
+			"name": "David",
+			"age": 40
+		},
+		{
+			"name": "Hudson",
+			"age": 2
+		}
+	]
+}
